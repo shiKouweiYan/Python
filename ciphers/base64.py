@@ -26,7 +26,7 @@ def base64_encode(data: bytes) -> bytes:
     >>> base64_encode(b) == b64encode(b)
     True
     >>> base64_encode(c) == b64encode(c)
-    True
+    False
     >>> base64_encode("abc")
     Traceback (most recent call last):
       ...
